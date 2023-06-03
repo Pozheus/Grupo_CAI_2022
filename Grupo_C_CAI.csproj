@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CB067B8-CA56-4CAD-AD2F-C352841BC5B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Grupo_C_CAI</RootNamespace>
+    <AssemblyName>Grupo_C_CAI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormularioEstadoCuentaCorriente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioEstadoCuentaCorriente.Designer.cs">
+      <DependentUpon>FormularioEstadoCuentaCorriente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioEstadoSolicitudServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioEstadoSolicitudServicio.Designer.cs">
+      <DependentUpon>FormularioEstadoSolicitudServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auxiliares\Formateadores.cs" />
+    <Compile Include="Modelos\Factura.cs" />
+    <Compile Include="Modelos\Pais.cs" />
+    <Compile Include="Modelos\Provincia.cs" />
+    <Compile Include="Modelos\RegionInternacional.cs" />
+    <Compile Include="Modelos\SolicitudServicio.cs" />
+    <Compile Include="Modelos\Sucursal.cs" />
+    <Compile Include="Modelos\Tarifa.cs" />
+    <Compile Include="Modelos\TipoEnvio.cs" />
+    <Compile Include="Sesion.cs" />
+    <Compile Include="MenuInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuInicio.Designer.cs">
+      <DependentUpon>MenuInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\Cliente.cs" />
+    <Compile Include="Modelos\DB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormularioSolicitudServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioSolicitudServicio.Designer.cs">
+      <DependentUpon>FormularioSolicitudServicio.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormularioEstadoCuentaCorriente.resx">
+      <DependentUpon>FormularioEstadoCuentaCorriente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioEstadoSolicitudServicio.resx">
+      <DependentUpon>FormularioEstadoSolicitudServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioSolicitudServicio.resx">
+      <DependentUpon>FormularioSolicitudServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuInicio.resx">
+      <DependentUpon>MenuInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Datos\clientes.json" />
+    <None Include="Datos\ejemplo.json" />
+    <None Include="Datos\facturas.json" />
+    <None Include="Datos\provincias.json" />
+    <None Include="Datos\paises.json" />
+    <None Include="Datos\regionesInternacionales.json" />
+    <None Include="Datos\solicitudes.json" />
+    <None Include="Datos\sucursales.json" />
+    <None Include="Datos\tarifas.json" />
+    <None Include="Datos\tiposEnvio.json" />
+    <None Include="Modelos\FileName.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

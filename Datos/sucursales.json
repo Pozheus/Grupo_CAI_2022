@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "tipo": "centroDistribucion",
+    "ciudad": "Viedma",
+    "nombre": "Sur",
+    "localidad": "Viedma",
+    "direccion": "San Martin 3212",
+    "provinciaId": 16,
+    "paisId": 1,
+    "codigoPostal": "8500"
+  },
+  {
+    "id": 2,
+    "tipo": "centroDistribucion",
+    "ciudad": "Córdoba",
+    "nombre": "Centro",
+    "localidad": "Alberdi",
+    "direccion": "Belgrano 134",
+    "provinciaId": 6,
+    "paisId": 1,
+    "codigoPostal": "5000"
+  },
+  {
+    "id": 3,
+    "tipo": "centroDistribucion",
+    "ciudad": "Resistencia",
+    "nombre": "Norte",
+    "localidad": "Asunción",
+    "direccion": "Av. Roca 5702",
+    "provinciaId": 4,
+    "paisId": 1,
+    "codigoPostal": "3500"
+  },
+  {
+    "id": 4,
+    "tipo": "centroDistribucion",
+    "ciudad": "CABA",
+    "nombre": "Metropolitana",
+    "localidad": "CABA",
+    "direccion": "Av. Antártida Argentina 1100",
+    "provinciaId": 1,
+    "paisId": 1,
+    "codigoPostal": "1416"
+  },
+  {
+    "id": 5,
+    "tipo": "agencia",
+    "ciudad": "CABA",
+    "nombre": "Villa Devoto",
+    "localidad": "Villa Devoto",
+    "direccion": "Nogoyá 3243",
+    "provinciaId": 1,
+    "paisId": 1,
+    "codigoPostal": "1417"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "CABA",
+    "region": "Metropolitana"
+  },
+  {
+    "id": 2,
+    "nombre": "Buenos Aires",
+    "region": "Metropolitana"
+  },
+  {
+    "id": 3,
+    "nombre": "Catamarca",
+    "region": "Norte"
+  },
+  {
+    "id": 4,
+    "nombre": "Chaco",
+    "region": "Norte"
+  },
+  {
+    "id": 5,
+    "nombre": "Chubut",
+    "region": "Sur"
+  },
+  {
+    "id": 6,
+    "nombre": "Córdoba",
+    "region": "Centro"
+  },
+  {
+    "id": 7,
+    "nombre": "Corrientes",
+    "region": "Norte"
+  },
+  {
+    "id": 8,
+    "nombre": "Entre Ríos",
+    "region": "Centro"
+  },
+  {
+    "id": 9,
+    "nombre": "Formosa",
+    "region": "Norte"
+  },
+  {
+    "id": 10,
+    "nombre": "Jujuy",
+    "region": "Norte"
+  },
+  {
+    "id": 11,
+    "nombre": "La Pampa",
+    "region": "Centro"
+  },
+  {
+    "id": 12,
+    "nombre": "La Rioja",
+    "region": "Norte"
+  },
+  {
+    "id": 13,
+    "nombre": "Mendoza",
+    "region": "Centro"
+  },
+  {
+    "id": 14,
+    "nombre": "Misiones",
+    "region": "Norte"
+  },
+  {
+    "id": 15,
+    "nombre": "Neuquén",
+    "region": "Sur"
+  },
+  {
+    "id": 16,
+    "nombre": "Río Negro",
+    "region": "Sur"
+  },
+  {
+    "id": 17,
+    "nombre": "Salta",
+    "region": "Norte"
+  },
+  {
+    "id": 18,
+    "nombre": "San Juan",
+    "region": "Norte"
+  },
+  {
+    "id": 19,
+    "nombre": "San Luis",
+    "region": "Centro"
+  },
+  {
+    "id": 20,
+    "nombre": "Santa Cruz",
+    "region": "Sur"
+  },
+  {
+    "id": 21,
+    "nombre": "Santa Fe",
+    "region": "Centro"
+  },
+  {
+    "id": 22,
+    "nombre": "Santiago del Estero",
+    "region": "Norte"
+  },
+  {
+    "id": 23,
+    "nombre": "Tierra del Fuego",
+    "region": "Sur"
+  },
+  {
+    "id": 24,
+    "nombre": "Tucumán",
+    "region": "Norte"
+  }
+]

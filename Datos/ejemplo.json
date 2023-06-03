@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "razonSocial": "Empresa1",
+  "cuit": "20371251241",
+  "password": "1234",
+  "provinciaId": "1",
+  "region": "Metropolitana",
+  "direccion": "Cucha Cucha 1100",
+  "localidad": "CABA",
+  "codigoPostal": "1405",
+  "telefono": "45671142",
+  "email": "empresa1@gmail.com",
+  "paisId": 1
+},

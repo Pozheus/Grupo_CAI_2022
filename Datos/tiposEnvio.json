@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Urgente",
+    "recargo": 0.15,
+    "tope": 400
+  },
+  {
+    "id": 2,
+    "nombre": "Normal",
+    "recargo": 0,
+    "tope": 400
+  }
+]

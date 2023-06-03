@@ -1,0 +1,107 @@
+[
+  {
+    "tipo": "local",
+    "categoriasSegunPeso": [
+      {
+        "maximoGramos": 500,
+        "precio": 350
+      },
+      {
+        "maximoGramos": 10000,
+        "precio": 450
+      },
+      {
+        "maximoGramos": 20000,
+        "precio": 550
+      },
+      {
+        "maximoGramos": 30000,
+        "precio": 650
+      }
+    ]
+  },
+  {
+    "tipo": "provincial",
+    "categoriasSegunPeso": [
+      {
+        "maximoGramos": 500,
+        "precio": 450
+      },
+      {
+        "maximoGramos": 10000,
+        "precio": 550
+      },
+      {
+        "maximoGramos": 20000,
+        "precio": 700
+      },
+      {
+        "maximoGramos": 30000,
+        "precio": 800
+      }
+    ]
+  },
+  {
+    "tipo": "regional",
+    "categoriasSegunPeso": [
+      {
+        "maximoGramos": 500,
+        "precio": 400
+      },
+      {
+        "maximoGramos": 10000,
+        "precio": 500
+      },
+      {
+        "maximoGramos": 20000,
+        "precio": 600
+      },
+      {
+        "maximoGramos": 30000,
+        "precio": 700
+      }
+    ]
+  },
+  {
+    "tipo": "nacional",
+    "categoriasSegunPeso": [
+      {
+        "maximoGramos": 500,
+        "precio": 600
+      },
+      {
+        "maximoGramos": 10000,
+        "precio": 700
+      },
+      {
+        "maximoGramos": 20000,
+        "precio": 800
+      },
+      {
+        "maximoGramos": 30000,
+        "precio": 900
+      }
+    ]
+  },
+  {
+    "tipo": "internacional",
+    "categoriasSegunPeso": [
+      {
+        "maximoGramos": 500,
+        "precio": 1300
+      },
+      {
+        "maximoGramos": 10000,
+        "precio": 1400
+      },
+      {
+        "maximoGramos": 20000,
+        "precio": 1700
+      },
+      {
+        "maximoGramos": 30000,
+        "precio": 1800
+      }
+    ]
+  }
+]

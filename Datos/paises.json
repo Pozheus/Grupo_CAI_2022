@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "nombre": "Argentina",
+    "regionInternacionalId": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Antigua y Barbuda",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 3,
+    "nombre": "Bahamas",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 4,
+    "nombre": "Barbados",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 5,
+    "nombre": "Belice",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 6,
+    "nombre": "Bolivia",
+    "regionInternacionalId": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Brasil",
+    "regionInternacionalId": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Colombia",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 9,
+    "nombre": "Costa Rica",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 10,
+    "nombre": "Cuba",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 11,
+    "nombre": "Chile",
+    "regionInternacionalId": 2
+  },
+  {
+    "id": 12,
+    "nombre": "República Dominicana",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 13,
+    "nombre": "Ecuador",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 14,
+    "nombre": "Ecuador",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 15,
+    "nombre": "El Salvador",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 16,
+    "nombre": "Granada",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 17,
+    "nombre": "Guatemala",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 18,
+    "nombre": "Guyana",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 19,
+    "nombre": "Haití",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 20,
+    "nombre": "Honduras",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 21,
+    "nombre": "Jamaica",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 22,
+    "nombre": "México",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 23,
+    "nombre": "Nicaragua",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 24,
+    "nombre": "Panamá",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 25,
+    "nombre": "Paraguay",
+    "regionInternacionalId": 2
+  },
+  {
+    "id": 26,
+    "nombre": "Perú",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 27,
+    "nombre": "República Dominicana",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 28,
+    "nombre": "Surinam",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 29,
+    "nombre": "Trinidad y Tobago",
+    "regionInternacionalId": 3
+  },
+  {
+    "id": 30,
+    "nombre": "Uruguay",
+    "regionInternacionalId": 2
+  },
+  {
+    "id": 31,
+    "nombre": "Venezuela",
+    "regionInternacionalId": 3
+  }
+]
